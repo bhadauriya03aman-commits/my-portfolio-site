@@ -228,7 +228,8 @@ function resetPortfolioData() {
     }
 }
 
-//menu bar document.addEventListener("DOMContentLoaded", () => {
+//menu bar
+document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("menuToggle");
     const navLinks = document.getElementById("navLinks");
 
