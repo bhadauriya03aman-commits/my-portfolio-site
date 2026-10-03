@@ -249,4 +249,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+//email copied
+
+copyBtn.onclick = () => {
+    navigator.clipboard.writeText(document.getElementById("displayEmail").textContent);
+    copyBtn.textContent = "✓ Copied";
+    copyBtn.style.color = "#22c55e";
+
+    setTimeout(() => {
+        copyBtn.textContent = "Copy Email";
+        copyBtn.style.color = "";
+    }, 2000);
+};
 
