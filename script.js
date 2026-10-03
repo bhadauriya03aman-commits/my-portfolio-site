@@ -228,4 +228,24 @@ function resetPortfolioData() {
     }
 }
 
+//menu bar document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    if (!menuToggle || !navLinks) return;
+
+    menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        menuToggle.classList.toggle("active");
+    });
+
+    // Close menu when a navigation link is clicked
+    navLinks.querySelectorAll(".nav-link").forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.classList.remove("open");
+            menuToggle.classList.remove("active");
+        });
+    });
+});
+
 
