@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="cbg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#27272a" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#cbg1)" rx="16"/>
+  <rect x="50" y="50" width="700" height="400" rx="12" fill="#111115" stroke="#3f3f46" stroke-width="2" />
+  <rect x="70" y="70" width="660" height="360" rx="8" fill="none" stroke="#27272a" stroke-width="1.5" stroke-dasharray="4 4" />
+  <!-- Seal / Badge -->
+  <circle cx="400" cy="170" r="50" fill="#1e1e24" stroke="url(#gold)" stroke-width="3" />
+  <path d="M 400 145 L 406 162 L 424 162 L 409 173 L 415 190 L 400 179 L 385 190 L 391 173 L 376 162 L 394 162 Z" fill="url(#gold)" />
+  <text x="400" y="260" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#f4f4f5" text-anchor="middle">CERTIFICATE OF COMPLETION</text>
+  <text x="400" y="295" font-family="-apple-system, sans-serif" font-size="16" fill="#a1a1aa" text-anchor="middle">Full-Stack Web Development Bootcamp</text>
+  <text x="400" y="340" font-family="'JetBrains Mono', monospace" font-size="13" fill="#6366f1" text-anchor="middle">Verified Credential &amp; Specialization</text>
+  <line x1="280" y1="380" x2="520" y2="380" stroke="#3f3f46" stroke-width="1" />
+  <text x="400" y="405" font-family="-apple-system, sans-serif" font-size="12" fill="#71717a" text-anchor="middle">Udemy Academy - Completed 2026</text>
+</svg>

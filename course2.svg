@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="cbg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#141c2e" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#cbg2)" rx="16"/>
+  <rect x="50" y="50" width="700" height="400" rx="12" fill="#0d131f" stroke="#1e293b" stroke-width="2" />
+  <rect x="70" y="70" width="660" height="360" rx="8" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="4 4" />
+  <!-- Seal / Badge -->
+  <circle cx="400" cy="170" r="50" fill="#131d2e" stroke="url(#cyanGrad)" stroke-width="3" />
+  <circle cx="400" cy="170" r="38" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3" />
+  <text x="400" y="177" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="700" fill="#38bdf8" text-anchor="middle">&lt;dev/&gt;</text>
+  <text x="400" y="260" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#f8fafc" text-anchor="middle">PROFESSIONAL CERTIFICATION</text>
+  <text x="400" y="295" font-family="-apple-system, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">Modern React Architecture &amp; UI Systems</text>
+  <text x="400" y="340" font-family="'JetBrains Mono', monospace" font-size="13" fill="#38bdf8" text-anchor="middle">Frontend Engineering Excellence</text>
+  <line x1="280" y1="380" x2="520" y2="380" stroke="#1e293b" stroke-width="1" />
+  <text x="400" y="405" font-family="-apple-system, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Meta / Coursera - Completed 2026</text>
+</svg>
