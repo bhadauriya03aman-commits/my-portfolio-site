@@ -251,14 +251,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //email copied
 
+const copyBtn = document.getElementById("btnCopyEmail");
+
 copyBtn.onclick = () => {
     navigator.clipboard.writeText(document.getElementById("displayEmail").textContent);
     copyBtn.textContent = "✓ Copied";
-    copyBtn.style.color = "#22c55e";
-
+    
     setTimeout(() => {
         copyBtn.textContent = "Copy Email";
-        copyBtn.style.color = "";
     }, 2000);
 };
 
